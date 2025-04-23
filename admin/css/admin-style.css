@@ -1,0 +1,308 @@
+.configuration-3d-wrap{
+	margin:10px;
+}
+.configuration-3d-wrap .add-new-part{
+	text-align:right;
+}
+
+.wp-core-ui .button.add-mateiral,.wp-core-ui .button.remove-mateiral{
+	margin-left: 25px;
+}
+
+.woocommerce_options_panel .configuration-3d-wrap label{
+	padding: 0;
+	margin: 0 0 0 0px;
+}
+
+.woocommerce_options_panel .configuration-3d-wrap .part-name{
+	margin: 0;
+}
+.file-upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0071a1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+}
+
+.file-upload-button:hover {
+  background-color: #005f85;
+}
+.file-upload {
+  position: absolute;
+  left: -9999px;
+}
+.file-upload-button{  
+	position: absolute;
+    top: 10px;
+    right: 75px;
+}
+.change-module.button{
+	position: absolute;
+    top: 10px;
+    right: 75px;
+}
+._part_name_field {
+	/* display: inline-block; */
+}
+span.inner-sec {
+    display: flow-root;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#loading-overlay {
+    position: fixed;
+    width: 100%;
+    height:100%;
+    left: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    background-color: #000;
+    z-index: 999;
+    opacity: 0.5;
+}
+.loading-icon{ position:absolute;border-top:2px solid #fff;border-right:2px solid #fff;border-bottom:2px solid #fff;border-left:2px solid #767676;border-radius:25px;width:25px;height:25px;margin:0 auto;position:absolute;left:50%;margin-left:-20px;top:50%;margin-top:-20px;z-index:4;-webkit-animation:spin 1s linear infinite;-moz-animation:spin 1s linear infinite;animation:spin 1s linear infinite;}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.right-mains .hide-show-section {
+    display: grid;
+}
+.configuration-3d-wrap .inner-sec-custom.conditional-section select{
+    width: 24% !important;
+
+}
+#mesh-table .mesh input{
+    width: 100% !important;
+}
+.mesh_img img {
+    width: 25%;
+    border-radius: 50%;
+}
+.mesh {
+    text-align: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px !important;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.multiSelect .select2{
+	width:auto !important;
+}
+.condition-custom-layout .condi-wrapper, .part-top-panel{
+	padding: 8px 0px;
+}
+.condition-custom-layout{
+	width: 100%;
+}
+.condition-custom-layout .condi-wrapper select{
+	width: 27%;
+}
+/* .condi-sec-layout.inner-sec1 {
+    justify-content: center !important;
+} */
+span.condi-seprator {
+    width: 100%;
+    text-align: center;
+}
+/* .part-wrap .inner-sec.conditional-section{
+    display: inline-block;
+} */
+
+#dynamic-parts-materials .row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+#dynamic-parts-materials .row select,
+#dynamic-parts-materials .row input {
+  flex: 1;
+}
+
+span.remove-mf-name {
+  position: relative;
+}
+
+span.remove-mf-name {
+  position: absolute;
+  background-color: red;
+  padding: 0px 5px;
+  border-radius: 12px;
+  color: white !important;
+}
+#d3_model_details p{
+  margin: 1em 0 0px 0px !important;
+}
+button#add-variant {
+  margin-top: 10px;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  text-align: center;
+}
+
+/* toggle CSS*/
+#dynamic-parts-materials .switch {
+  position: relative;
+  display: inline-block;
+  width: 45px !important;
+  height: 25px !important;
+}
+
+#dynamic-parts-materials .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#dynamic-parts-materials .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#dynamic-parts-materials .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#dynamic-parts-materials input:checked + .slider {
+  background-color: #2196F3;
+}
+
+#dynamic-parts-materials input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+#dynamic-parts-materials input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+/* Rounded sliders */
+#dynamic-parts-materials .slider.round {
+  border-radius: 34px;
+}
+
+#dynamic-parts-materials .slider.round:before {
+  border-radius: 50%;
+}
+
+
+#dynamic-parts-materials table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+#dynamic-parts-materials table th, #dynamic-parts-materials table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+#dynamic-parts-materials table th {
+  background-color: #f4f4f4;
+}
+#dynamic-parts-materials table td:first-child {
+  width: 20%; 
+}
+#dynamic-parts-materials table td:last-child {
+  width: 80%;
+}
+
+/* Model loader CSS */ 
+
+select.short.animation-sec-select.js-example-basic-multiple.select2-hidden-accessible ~ span.select2.select2-container.select2-container--default .select2-selection.select2-selection--single {
+  width: 172px !important;
+}
+
